@@ -8,11 +8,7 @@ Try running some of the following tasks:
 Installation
 Clone the repository:
 
-git clone https://github.com/your-username/decentralized-image-upload.git
-Install dependencies for the hardhat:
 
-# Navigate to the root directory
-cd Dgdrive3.0
 # Install hardhat dependencies
 npm install
 Compile the smart contract for artifacts:
