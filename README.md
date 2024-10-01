@@ -5,9 +5,32 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+Installation
+Clone the repository:
+
+git clone https://github.com/your-username/decentralized-image-upload.git
+Install dependencies for the hardhat:
+
+# Navigate to the root directory
+cd Dgdrive3.0
+# Install hardhat dependencies
+npm install
+Compile the smart contract for artifacts:
+
+# Compile Smart Contract
+npx hardhat compile
+Deploy the Solidity smart contract to an Ethereum testnet or local development environment.
+
+# Deploy Smart Contract
+npx hardhat run scripts/deploy.js --network <network-name>
+Install dependencies for the React front end:
+
+# Navigate to the React client directory
+cd client 
+# Install React dependencies
+npm install
+Run the react application:
+
+# Start React Application
+npm start
 ```
